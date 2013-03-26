@@ -1,0 +1,19 @@
+I guess if I was going to write a program in which two people had to race eachother with mouse clicks it would be something like this:
+
+background(800,600)
+fill(0)
+draw line (down middle)
+display (integer at top left)
+display (integer at top right)
+
+
+if (space-bar) pressed,
+   then +1 to integer top right;
+
+if (mouse-click) pressed,
+   then +1 to integer top left;
+
+if integer = 50 show explosion, display winner
+
+
+
